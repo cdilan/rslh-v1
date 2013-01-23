@@ -1,0 +1,857 @@
+/*
+Theme Name: GAME CDILan
+Author: Time CDILan
+Author URI: http://www.cdilan.com.br/
+Description: Tema desenvolvido para o GAME CDILan
+Version: 0.1
+License: ...
+License URI: ...
+Text Domain: gamecdilan
+*/
+
+body{
+	background-color: whiteSmoke;
+}
+
+.btn:hover{
+	background-position: 0 0;
+	background-image: none;
+	background-color: #08C;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(50, 50, 50, 1);
+}
+
+/*Menu topo*/
+
+.admin-bar .navbar-fixed-top{
+    top: 28px;
+}
+
+.navbar ul.nav{
+	float: right;
+}
+
+/*Áreas principais*/
+
+#site-content{
+	padding: 50px 0;
+	background: white url('img/bg.gif') repeat;
+}
+
+#site-footer{
+	padding: 30px 0;
+	background-color: whiteSmoke;
+	border-top: 1px solid #DDD;
+}
+
+/*Breadcrumbs*/
+
+.breadcrumb{
+	margin: 25px 0 10px;
+}
+
+/* Login */
+
+.login{
+	padding: 50px 0;
+}
+
+.login .entry{
+	text-align: center; 
+}
+
+.login .entry h1{
+	font-size: 30px;
+	line-height: 120%;
+}
+.login .entry h2{
+	font-size: 20px;
+	line-height: 120%;
+}
+
+#video{
+	border: 1px solid #DDD;
+	padding: 5px;
+	background-color: #FFF;
+	width: 560px;
+	height: 315px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/*Página inicial*/
+
+#home h1{
+	font-size: 33px;
+}
+
+#home img{
+	margin-top: -50px 
+}
+
+#home .lead{
+	font-size: 19px;
+}
+
+.home-news{
+	margin-bottom: 20px;
+}
+
+#home-links{
+	margin-top: 20px;
+}
+
+#home-links .well h2{
+	font-size: 19px;
+	line-height: 130%;
+	margin: 0 0 10px;
+}
+
+#home-links .lead{
+	min-height: 140px;
+	font-size: 17px;
+}
+
+/*Episódios*/
+
+#episodios{
+	padding: 0;
+	margin: 0;
+}
+
+#episodio .lead{
+	font-size: 17px;
+	line-height: 140%;
+}
+
+#episodios .pager{
+	margin: 0;
+	text-align: left;
+}
+
+#episodios li{
+	width: 220px;
+	padding: 0 7px;
+}
+
+#episodios .thumbnail{
+	height: 310px;
+	background-color: #FFF;
+}
+
+#episodios .thumbnail h2{
+	margin: 10px 0;
+	font-size: 19px;
+	line-height: 22px; 
+}
+
+#episodios .thumbnail p{
+	height: 226px;
+}
+
+#lista-episodios .bx-prev,
+#lista-episodios .bx-next{
+	background-color: #000;
+	display: block;
+	text-indent: -9999px; 
+	position: relative;
+	top: -200px;
+	height: 50px;
+	width: 30px;
+	background: url('img/boxslider-arrow.gif') no-repeat 0 0;
+	overflow: hidden;
+}
+
+#lista-episodios .bx-prev{
+	float: left;
+	margin-left: -40px;
+	background-position: 0 0;
+}
+#lista-episodios .bx-prev:hover{background-position: 0px -50px;}
+
+#lista-episodios .bx-next{
+	float: right;
+	margin-right: -40px;
+	background-position: -30px 0;
+}
+#lista-episodios .bx-next:hover{background-position: -30px -50px;}
+
+
+/*Lista de atividades*/
+
+#lista-atividades .thumbnail{
+	height: 150px;
+	background-color: #FFF;
+}
+
+#lista-atividades .thumbnail img{
+	float: left;
+	margin-right: 5px;
+}
+
+#lista-atividades .thumbnail h2{
+	margin: 0 0 5px;
+	line-height: 120%;
+	font-size: 20px;
+}
+
+#lista-atividades .thumbnail .btn{
+	margin-top: 10px;
+}
+
+/*Lista-jogadores*/
+
+.lista-jogadores .thumbnail{
+	background-color: #FFF;
+}
+
+.lista-jogadores .thumbnail img{
+	float: left;
+	margin: 0 5px 5px 0;
+	width: 64px;
+	height: 64px;
+}
+
+.lista-jogadores br{display: none;}
+
+.lista-jogadores .thumbnail h3{
+	margin: 0 0 5px;
+	padding: 0;
+	font-size: 15px;
+	line-height: 120%;
+}
+
+.lista-jogadores .thumbnail p{
+	margin: 0;
+	font-size: 13px;
+	line-height: 100%;
+}
+
+.lista-jogadores .thumbnail .info{
+	display: block;
+	clear: both;
+	background-color: #F5F5F5;
+	border-top: 1px solid #DDD;
+	font-size: 12px;
+	margin: -4px;
+	padding: 5px;
+}
+
+.lista-jogadores .thumbnail .local{
+	text-align: left;
+}
+
+.lista-jogadores .thumbnail .pontos{
+	float: right; 
+}
+
+/*Atividade*/
+
+
+.page-header{
+	border: none;
+	margin-bottom: 10px;
+}
+#texto-inspirador.thumbnail{
+	padding: 5px 20px;
+	background-color: #FFF;
+	margin-bottom: 20px;
+}
+
+/**/
+
+.widget h3{
+	margin: 0px;
+	padding: 10px 15px;
+	background-color: whiteSmoke;
+
+	font-size: 16px;
+	line-height: 100%;
+
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.widget .well{
+	-webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+/*Comentários*/
+
+.commentlist,
+.commentlist ul{
+	list-style: none;
+	margin: 0;
+}
+
+.commentlist li{
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #E3E3E3;
+	background-color: #FFF;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+.commentlist li li{
+	margin-left: 30px;
+}
+
+.commentlist img{
+	float: left;
+	margin-right: 4px;
+	margin-top: 2px;
+	margin-bottom: 4px;
+}
+
+.commentlist .fn{font-weight: bold;}
+
+.commentlist .says{font-size: 11px;}
+
+.commentlist .comment-meta{
+	font-size: 11px;
+	padding: 0;
+	line-height: 90%;
+}
+
+.commentlist .comment-body p{
+	font-size: 13px;
+	display: block;
+	clear: both;
+}
+
+.commentlist .reply{
+	clear: both;
+	margin-bottom: 5px;
+	text-align: right;
+}
+
+.commentlist .reply a{
+	font-size: 11px;
+	padding: 2px 5px;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+}
+
+.commentlist .reply a:hover{
+	text-decoration: none;
+	background-color: #DDD;
+}
+
+.must-log-in{
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: whiteSmoke;
+	border: 1px solid #E3E3E3;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/*Formulário de entrega*/
+
+/*#formulario.well{
+	background-color: #8ECBEA;
+	border: none; 
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#formulario.well label{color: #FFF;}
+
+#formulario.well h3,
+#formulario.well h4,
+#formulario.well h5,
+#formulario.well h6{color: #FFF}
+
+.frm_forms h3{
+	margin-bottom: 5px;
+}
+
+#formulario.well .frm_description{
+	font-size: 17px;
+	margin: 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #F5F5F5;
+	color: #FFF;
+}*/
+
+.frm_form_fields{
+	padding-top: 15px;
+}
+
+.frm_form_fields .frm_description{
+	font-size: 12px;
+	color: gray;
+	margin-top: -10px;
+}
+
+.frm_forms input.text,
+.frm_forms input.tel,
+.frm_forms input.email{
+	text-indent: 2px !important;
+}
+
+.frm_radio{
+	display: block;
+	clear: both;
+}
+
+.frm_radio input,
+.frm_radio label{float: left; margin-left: 4px;}
+
+.frm_fourth select{
+	width: 80%;
+}
+
+.frm_error{
+	color: #B94A48;
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 15px;
+	margin-top: -5px;
+
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;	
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input{
+	height: auto;
+	line-height: 100%;
+}
+
+/*lista-entregas*/
+
+#lista-entregas .thumbnail{
+	background-color: #FFF;
+	text-align: center;
+}
+
+#lista-entregas .thumbnail h5{
+	font-size: 13px;
+	margin: 5px 0 0;
+
+}
+
+/*Entrega*/
+
+#entrega.thumbnail{
+	padding: 10px 20px;
+	background-color: #FFF;
+}
+
+#entrega-jogador.well{
+	overflow: hidden;
+}
+
+#entrega-jogador img.avatar{
+	float: left;
+	margin-right: 5px;
+}
+
+#entrega-jogador h3{
+	margin: 0 0 8px;
+	font-size: 20px;
+	line-height: 120%;
+}
+
+#entrega-jogador h4{
+	font-size: 15px;
+	margin: 0;
+	line-height: 120%;
+}
+
+#btn-atividade{
+	margin: 25px 0 20px;
+}
+
+#btn-atividade a{
+	display: block;
+}
+
+/* Lista de jogadores */
+
+#jogador-card .thumbnail{
+	height: 96px;
+}
+
+#jogador-card img {
+	margin-right: 8px;
+	float: left;
+}
+
+#jogador-card p {
+	margin: 0px;
+	line-height: 100%;
+	text-decoration: capitalize;
+}
+
+#jogador-card h3{
+	margin: 0px 0px 5px;
+	line-height: 120%;
+	font-size: 19px;
+}
+
+#jogador-card h4{
+	margin: 0px 0px 5px;
+	line-height: 100%;
+	font-size: 15px;
+}
+
+/* Conteúdo dinâmico */
+
+.entry,
+.entry p,
+.entry li{
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 300;
+}
+
+.entry li{margin: 5px 0;}
+.entry p{margin: 15px 0;}
+
+.entry strong{
+    font-weight: 600;
+}
+
+.entry .thumbnail{
+    margin: 0 0 10px;
+}
+
+.entry .alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.entry .aligncenter, div.aligncenter {
+    display:block;
+    margin: 5px auto 5px auto;
+}
+
+.entry .alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.entry .alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+.entry .aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.entry a img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.entry a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.entry a img.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+.entry a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.entry .wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.entry .wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.entry .wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.entry .wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+
+.entry  .wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+/*Footer partner*/
+
+#footer-partner .thumbnail{
+	background-color: #FFF;
+	text-align: center;
+}
+
+#footer-partner .thumbnail h4{
+	font-size: 13px;
+	font-weight: lighter;
+	color: #999;
+}
+
+#footer-partner .thumbnail img{
+	display: inline;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    body{padding-top: 0 !important;}
+	.navbar-fixed-top{
+		margin-bottom: 0;		
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    body{padding-top: 0 !important;}
+	.navbar-fixed-top{
+		margin-bottom: 0;		
+	}
+
+	#site-content{
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+	#site-content,
+	#site-footer{
+		margin-right: -20px;
+		margin-left: -20px;
+		padding-right: 20px; 
+		padding-left: 20px; 
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body{padding-top: 0 !important;}
+}
+
+/* boas vindas (Bem vindo ao Game) */
+
+.box {
+	margin-bottom: 10px;
+	background: #E7E9F3;
+	border-radius: 8px;
+}
+
+.box [class*="span"] {
+	margin: 10px;
+}
+
+/* Perfil do Jogador*/
+#player{
+	padding-top: 30px;
+}
+
+#player .thumbnail{
+	line-height: 0px;
+	background-color: #FFF; 
+}
+
+#player-avatar{
+	float: left;
+	margin-right: 10px;
+}
+
+#player-info h1{
+	font-size: 27px;
+	line-height: 120%;
+	margin: 5px 0 0;
+}
+
+#player-info p{
+	margin: 5px 0;
+}
+
+#player #points h2{
+	font-size: 24px;
+	line-height: 165%;
+	text-align: center;
+	margin: 10px 0 0;
+}
+
+#player #points h2 strong{
+	font-size: 300%;
+	display: block;
+}
+
+#player .well-small h3{
+	margin: 0 0 5px;
+	font-size: 17px;
+	line-height: 120%;
+}
+
+#player-medal .medal{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#player-medal .medal li{
+	margin-right: 5px;
+	display: inline;
+}
+
+#player-medal .medal img{
+	width: 64px;	
+}
+
+/* esconde mensagem quando comentário estiver fechado */
+.nocomments {
+	display: none;
+}
+
+/* destaca links no texto fazendo estilo badge do bootstrap */
+
+#texto-inspirador a {
+	background-color: #0088CC;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 0 5px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+#texto-inspirador a:hover {
+	color: #000000;
+	text-decoration: none;
+	background-color: orange;
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+
+}
+
+/* volta cor preta para Hs no modal */
+#formulario .modal h3,
+#formulario .modal h4,
+#formulario .modal h5,
+#formulario .modal h6{color: #000}
+
+.postid-56 .nav{
+	display: none;
+}
+
+/*termo de uso*/
+.termo-de-uso{
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	padding: 20px;
+	overflow: auto;
+	position: relative;
+	height: 250px;
+
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/*desafios*/
+.anchor {
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 31.5px;
+	color: black;
+	padding-top: 80px;
+}
+
+.anchor a:hover{
+	text-decoration: none;
+}
+
+#desafio .thumbnails {
+    margin: 0;
+}
+
+#desafio .thumbnail {
+    margin: 0 10px;
+}
+
+/*Troca do avatar*/
+#localavatar {
+	width: 750px;
+}
+.modal-body {
+	padding: 0px;
+}
+
+/*Icones edit avatar e dados pessoais*/
+
+.img-edit-avatar {
+    left: 0px;
+    position: relative;
+    top: -39px;
+    z-index: 0;
+}
+
+.img-edit-dados-pessoais {
+    left: 221px;
+    position: relative;
+    top: -49px;
+    z-index: 0;
+}
