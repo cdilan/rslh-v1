@@ -6,7 +6,8 @@ Reinvente sua Lan House
 instalação
 =========
 <ol>
-    <li>crie em seu localhost um site chamado 'rslh-v1'</li>
+    <li>configure o 'default sotrage directory' do seu GIT Client para a raiz do seu localhost<br />
+        <i>Exemplo: C:\xampp\htdocs</i></li>
     <li>clone o GIT apontando para essa pasta</li>
     <li>instale o wordpress com a seguinte configuração</li>
     <ol>
