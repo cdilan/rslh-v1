@@ -187,3 +187,4 @@ wp-includes/*
 /wp-signup.php
 /wp-trackback.php
 /xmlrpc.php
+/.htaccess
