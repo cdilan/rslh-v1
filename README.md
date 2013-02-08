@@ -1,6 +1,7 @@
 rslh-v1
 =======
-que merda
+que merda pouco explicada
+
 Reinvente sua Lan House
 
 instalação
